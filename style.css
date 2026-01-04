@@ -27,3 +27,16 @@ body{
 .myclass{
     color:magenta;
 }
+#box {
+    background-color:greenyellow;
+    color:purple;
+}
+.heading{
+    color: red;
+}
+h1, h2, h3{
+    color:blue;
+}
+button{
+    background-color: goldenrod;
+}
