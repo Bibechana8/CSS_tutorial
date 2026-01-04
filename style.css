@@ -1,4 +1,4 @@
-h1{
+/* h1{
     color : green;
 }
 
@@ -39,4 +39,35 @@ h1, h2, h3{
 }
 button{
     background-color: goldenrod;
-}
+} */
+ p {
+    text-align: start;
+ }
+ h1 {
+    text-align: center;
+    text-decoration: red dotted underline;
+ }
+
+ a {
+    text-decoration: none;
+ }
+
+ #h1{
+    font-weight: normal;
+ }
+ #h2{
+    font-weight: bold;
+ }
+ #h3{
+    font-weight: 900;
+ }
+ #h4{
+    font-weight: lighter;
+ }
+ #one{
+    font-family: 'Courier New', Courier, monospace;
+
+ }
+ #two{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
