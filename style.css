@@ -45,7 +45,7 @@ button{
  }
  h1 {
     text-align: center;
-    text-decoration: red dotted underline;
+    text-decoration: red wavy underline;
  }
 
  a {
@@ -70,4 +70,12 @@ button{
  }
  #two{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ #oneeee{
+    font-size: 25px;
+    line-height: 50px;
+    text-transform: capitalize;
+ }
+ #threeee{
+    font-size: 10px;
  }
