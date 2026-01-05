@@ -40,7 +40,7 @@ h1, h2, h3{
 button{
     background-color: goldenrod;
 } */
- p {
+ /* p {
     text-align: start;
  }
  h1 {
@@ -78,4 +78,25 @@ button{
  }
  #threeee{
     font-size: 10px;
+ } */
+
+ div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    /* border-width: 5px ;
+    border-style: solid ;
+    border-color: brown ; */
+    border: 5px solid brown;
+    border-radius: 1px;
+    padding-left: 25px;
+ }
+ h1{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(7, 201, 245);
+    border-width: 5px ;
+    border-style: dotted ;
+    border-color: black ;
+    text-align: center;
  }
