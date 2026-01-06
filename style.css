@@ -129,7 +129,7 @@ a{
    text-decoration: none;
 } */
 
-div{
+/* div{
    width: 100px;
    height: 100px;
    margin: 25px;
@@ -146,4 +146,44 @@ div{
 }
 #three{
    background-color: rgba(0, 0, 255, 1);
+} */
+ *{
+   padding: 0px;
+   margin: 0px;
+   color: white;
+ }
+ #navbar{
+   height:60px;
+   background-color: #0f1111;
+ }
+ button{
+   background-color: #f08804;
+ }
+
+ #logo{
+   color: #f08804;
+   font-size: 25px;
+ }
+
+a{
+   margin-right: 250px;
+   text-decoration: none;
+} 
+.contentbox{
+   height: 150px;
+   width: 150px;
+   border: 2px solid black;
+   display: inline-block;
+   color: black;
+   text-align: center;
+}
+#content{
+   height: 800px;
+   
+}
+footer{
+   background-color: #0f1111;
+   color: white;
+   text-align: center;
+
 }
