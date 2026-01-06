@@ -108,7 +108,7 @@ button{
     border-radius: 50%;
  }  */
 
- *{
+ /* *{
    padding: 0px;
    margin: 0px;
    color: white;
@@ -127,4 +127,23 @@ button{
 a{
    margin-right: 250px;
    text-decoration: none;
+} */
+
+div{
+   width: 100px;
+   height: 100px;
+   margin: 25px;
+   padding: 25px;
+   display: inline-block;
+}
+#one{
+   background-color: rgba(0, 0, 255, 0.5);
+   
+}
+#two{
+   background-color: rgba(0, 0, 255, 0.75);
+   
+}
+#three{
+   background-color: rgba(0, 0, 255, 1);
 }
