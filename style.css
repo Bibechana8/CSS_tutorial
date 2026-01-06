@@ -89,7 +89,8 @@ button{
     border-color: brown ; */
     border: 5px solid brown;
     border-radius: 1px;
-    padding-left: 25px;
+    padding: 25px;
+    margin: 25px;
  }
  h1{
     height: 50px;
@@ -99,4 +100,10 @@ button{
     border-style: dotted ;
     border-color: black ;
     text-align: center;
+ }
+ #oneone{
+    height: 100px;
+    width: 100px ;
+    background-color: green;
+    border-radius: 50%;
  }
