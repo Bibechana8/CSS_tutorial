@@ -13,3 +13,16 @@ li{
     /* background-color: red; */
     display: inline-block;
 }
+.outer{
+    height: 500px;
+    width: 500px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    height: 300px;
+    width: 300px;
+    background-color:darkorchid;
+}
