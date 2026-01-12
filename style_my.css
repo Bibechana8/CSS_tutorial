@@ -1,4 +1,4 @@
-.Navbar {
+/* .Navbar {
     background-color: pink;
     display: flex;
     justify-content: space-evenly;
@@ -11,7 +11,7 @@ a{
 li{
     list-style-type: none;
     /* background-color: red; */
-    display: inline-block;
+    /* display: inline-block;
 }
 .outer{
     height: 500px;
@@ -25,4 +25,25 @@ li{
     height: 300px;
     width: 300px;
     background-color:darkorchid;
-}
+} */ 
+ div{
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+ }
+ @media (width : 600px) {
+    div{
+        background-color: brown;
+    }
+ }
+ @media(min-width: 600px){
+    div{
+        background-color: bisque;
+    }
+ }
+ @media(min-width: 200px) and (max-width: 300px){
+    div{
+        background-color: purple;
+    }
+ }
+    
