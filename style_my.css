@@ -1,0 +1,15 @@
+.Navbar {
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: rgb(229, 16, 16);
+    
+}
+li{
+    list-style-type: none;
+    /* background-color: red; */
+    display: inline-block;
+}
