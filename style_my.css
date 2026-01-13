@@ -46,7 +46,7 @@ li{
         background-color: purple;
     }
  } */
-div{
+/* div{
     height: 200px;
     width: 200px;
     background-color: chocolate;
@@ -71,6 +71,23 @@ div{
         background-color: blue;
     }
 }
+ */
 
-
-    
+ div{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    border:2px solid black;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(5);
+    transition-delay: 2s;
+ }   
+ div:hover{
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+ }
+ div:active{
+    background-color: pink;
+ }
