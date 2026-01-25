@@ -95,13 +95,26 @@ li{
     /* transform:rotate(180deg); */
     /* transform: scale(0.5); */
     /* justify-content: center; */
-    /* animation: colorAnimate 2s ease-in 0s infinite normal; */
+    animation: colorAnimate 4s ease-in 1s infinite normal;
     
     
  }
  @keyframes colorAnimate {
-    from {left: 0px;}
-    to {left: 200px;}
+    0% {
+        left: 0px;
+        background-color: yellow;
+}
+    50% {
+        
+        background-color: rgb(11, 0, 128);
+        
+}
+
+    100% {
+        left: 200px;
+        background-color: red;
+        color: white;
+}
     
  }
  div:hover{
